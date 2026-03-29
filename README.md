@@ -11,6 +11,7 @@ Open Source: Every line of code is transparent. There are no hidden network call
 Local Execution: The script operates entirely on your local machine and does not require administrative privileges.
 Reversibility: Since files are moved and not deleted, any action can be manually undone by moving files back from the Desktop folder.
 Quick Start (One-Liner)
+
 To download and run the script immediately without manual saving, paste this command into your PowerShell terminal:
 powershell -ExecutionPolicy Bypass -Command "iwr -useb 'https://raw.githubusercontent.com/l45661619-cmd/Smart-Downloads-Janitor/refs/heads/main/Smart%20Downloads%20Janitor.ps1' -OutFile '$env:TEMP\Cleanup.ps1'; & '$env:TEMP\Cleanup.ps1'"
 
