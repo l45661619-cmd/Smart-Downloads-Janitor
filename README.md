@@ -13,7 +13,9 @@ Reversibility: Since files are moved and not deleted, any action can be manually
 Quick Start (One-Liner)
 
 To download and run the script immediately without manual saving, paste this command into your PowerShell terminal:
+```powershell
 powershell -ExecutionPolicy Bypass -Command "iwr -useb 'https://raw.githubusercontent.com/l45661619-cmd/Smart-Downloads-Janitor/refs/heads/main/Smart%20Downloads%20Janitor.ps1' -OutFile '$env:TEMP\Cleanup.ps1'; & '$env:TEMP\Cleanup.ps1'"
+```
 
 Manual Installation
   1. Copy the script code into a text editor (e.g., Notepad).
