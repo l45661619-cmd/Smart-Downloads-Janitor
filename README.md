@@ -24,4 +24,4 @@ This PowerShell script provides a safe and efficient way to manage the accumulat
 To download and run the script immediately without manual saving, copy and paste this command into your PowerShell terminal:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -Command "iwr -useb 'https://raw.githubusercontent.com' -OutFile '$env:TEMP\Cleanup.ps1'; & '$env:TEMP\Cleanup.ps1'"
+powershell -ExecutionPolicy Bypass -Command "iwr -useb 'https://raw.githubusercontent.com/l45661619-cmd/Smart-Downloads-Janitor/refs/heads/main/Smart%20Downloads%20Janitor.ps1' -OutFile '$env:TEMP\Cleanup.ps1'; & '$env:TEMP\Cleanup.ps1'"
